@@ -1,6 +1,8 @@
 --VS-Code Snippet
 .container>.row>(.col-md-4>.companies__logo-box>img[src=images/companies/company-$.png][alt="Company $ logo"][title="Company $ Logo"].img-fluid)*6
 
+.container>(.row>(.col-lg-6.col-md-6.col-sm-12.col-xs-12.services.mt-4>.services__content)*2)*3
+
 --Font AWEsome
 fontawesome.com
 npm install --save @fortawesome/fontawesome-free
