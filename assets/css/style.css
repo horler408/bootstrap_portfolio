@@ -10924,6 +10924,59 @@ textarea.form-control-lg {
   animation-delay: 1.5s;
 }
 
+.portfolio {
+  padding: 4rem 0;
+}
+.portfolio button {
+  text-transform: capitalize;
+}
+
+.portfolio-box {
+  position: relative;
+  width: 100%;
+  height: 18.5rem;
+  overflow: hidden;
+  margin-bottom: 1.2rem;
+  border-top: 0.5rem solid #bb6ef5;
+}
+.portfolio-box img {
+  width: 100%;
+  height: 100%;
+}
+.portfolio-box .portfolio-info {
+  background-color: rgba(153, 38, 240, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.portfolio-box .portfolio-info .caption {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 35%;
+  left: 20%;
+}
+.portfolio-box .portfolio-info .caption h4 {
+  text-transform: uppercase;
+  display: block;
+  width: 70%;
+}
+.portfolio-box:hover img {
+  transform: scale(1.5);
+  transition-duration: 1000ms;
+  transition-property: all;
+}
+.portfolio-box:hover .portfolio-info {
+  opacity: 1;
+  visibility: visible;
+  transition-duration: 1000ms;
+  transition-property: all;
+}
+
 .services {
   position: relative;
   padding: 1rem 0;
