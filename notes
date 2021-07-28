@@ -5,6 +5,8 @@
 
 .row>(.col-lg-4.col-md-6>.portfolio-box.shadow>(img[src="images/portfolio/portfolio-$.png"][alt="portfolio $ picture"][title="portfolio $ picture"].img-fluid)>div.portfolio-info>div.caption>h4{project name goes here $}p{category project})*9
 
+.row>(.col-md-4.contact-box.pt-1>.contact-box__icon+.contact-box__info>a.contact-box__info--title{title goes here}p.contact-box__info--sub-title{subtitle goes here})*3
+
 --Font AWEsome
 fontawesome.com
 npm install --save @fortawesome/fontawesome-free
@@ -34,6 +36,9 @@ npm install postcss-cli autoprefixer --save
 --ICONS
 www.manypixels.co/gallery
 icons.getbootstrap.com
+
+--SVG ICONS
+tablericons.com
 
 --Google Font
 fonts.google.com/specimen/Poppins
